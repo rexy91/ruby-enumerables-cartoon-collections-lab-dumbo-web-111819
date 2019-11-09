@@ -28,8 +28,8 @@ def find_the_cheese(cheese_string)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_string.each{ |cheese|
       cheese_types.each{ |type|
-        if type == cheesee
-          return cheesee 
+        if type == cheese
+          return cheese
         end
   }}
   return nil 

@@ -31,5 +31,5 @@ def find_the_cheese(cheese_string)
         if type == cheesee
           return cheesee } 
   }
-  retur nil 
+  return nil 
 end

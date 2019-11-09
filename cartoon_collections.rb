@@ -19,9 +19,8 @@ def long_planeteer_calls(calls)
       if call.length > 4 
           return true
       end
-      return false 
-      
      } 
+      return false 
 end
 
 def find_the_cheese(target)

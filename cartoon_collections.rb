@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarf)
   # Your code here
-  dwarf.each do |name|
+  dwarf.each collect |name|
     puts name
   end
 end

@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarf)
   # Your code here
-  dwarf.collect { |name|
-    puts name 
-  }
+ dwarf.collect{ |name| 
+	puts `/1.*#{name}/`
+}
 end
 
 def summon_captain_planet# code an argument here

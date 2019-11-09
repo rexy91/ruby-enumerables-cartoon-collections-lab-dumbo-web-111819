@@ -23,11 +23,13 @@ def long_planeteer_calls(calls)
       return false 
 end
 
-def find_the_cheese(target)
+def find_the_cheese(cheese_string)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each{ |cheese|
-    if cheese == target
-      return cheese
-    end } 
+  cheese_string.each{ |cheese|
+      cheese_types.each{ |type|
+        if type == cheesee
+          return cheesee } 
+  }
+  retur nil 
 end

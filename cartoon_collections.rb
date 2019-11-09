@@ -29,7 +29,7 @@ def find_the_cheese(cheese_string)
   cheese_string.each{ |cheese|
       cheese_types.each{ |type|
         if type == cheesee
-          return cheesee } 
+          return cheesee 
   }
   return nil 
 end
